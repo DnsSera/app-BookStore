@@ -94,11 +94,11 @@ export const getUniqueGenres = computed(() => {
   
   // Observador para detectar cambios en la lista y reflejarlos en el localStorage
   watch(() => state.readingList, () => {
-    localStorage.setItem('readingList', JSON.stringify(state.readingList));
+    localStorage.setItem("readingList", JSON.stringify(state.readingList));
   }, { deep: true });
 
   const loadReadingList = () => {
-    const storedList = localStorage.getItem('readingList');
+    const storedList = localStorage.getItem("readingList");
     state.readingList = storedList ? JSON.parse(storedList) : [];
   };
   

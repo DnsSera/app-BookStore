@@ -1,14 +1,12 @@
 <script setup lang="js">
 import { isSidebarActive } from "../store/manageReadList";
-import { readingList, removeBookFromReadingList , loadBook} from "../store/manageBook";
-import { onMounted } from "vue";
+import { readingList, removeBookFromReadingList } from "../store/manageBook";
 
 // Función para eliminar un libro de la lista de lectura
 const removeBook = (bookId) => {
   removeBookFromReadingList(bookId);
 };
 
-onMounted(loadBook);
 </script>
 
 <template>
