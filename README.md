@@ -1,8 +1,7 @@
 # app-libros
-# Vue Book Filter & Reading List
 
 ## Descripción
-Vue Book Filter & Reading List es una aplicación web creada con Vue.js que permite a los usuarios filtrar un grupo de libros disponibles por género y cantidad de páginas. Además, los usuarios pueden agregar libros a una lista de lectura personalizada para gestionarlos de manera práctica.
+app-libros es una aplicación web creada con Vue.js que permite a los usuarios filtrar un grupo de libros disponibles por género y cantidad de páginas. Además, los usuarios pueden agregar libros a una lista de lectura personalizada para gestionarlos de manera práctica.
 
 ## Funcionalidades
 - Filtrar libros disponibles por:
@@ -16,25 +15,24 @@ Vue Book Filter & Reading List es una aplicación web creada con Vue.js que perm
 - **Vue CLI**: Necesario para ejecutar comandos de Vue.js. Si no lo tienes instalado, puedes hacerlo con el siguiente comando:
   ```bash
   npm install -g @vue/cli
-## Project setup
+  
+## Configuración del proyecto
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compila y recarga automáticamente para desarrollo
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compila y minifica para producción
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### Verifica y corrige archivos
 ```
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
