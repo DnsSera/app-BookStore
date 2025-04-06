@@ -49,7 +49,6 @@ export const loadBook = async () => {
   try {
     const response = await fetch("/books.json");
     state.books = await response.json();
-    loadReadingList();
   } catch (error) {
     console.error("Error al cargar los libros:", error);
   }
@@ -102,3 +101,4 @@ export const getUniqueGenres = computed(() => {
     const storedList = localStorage.getItem('readingList');
     state.readingList = storedList ? JSON.parse(storedList) : [];
   };
+  
