@@ -1,18 +1,16 @@
-<template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
-</template>
-
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+<script setup>
+import AppHeader from './components/AppHeader.vue';
+import BookList from './components/BookList.vue';
+import ReadList from './components/ReadList.vue';
 </script>
+
+<template>
+  <AppHeader />
+  <div>
+    <BookList />
+    <ReadList />
+  </div>  
+</template>
 
 <style>
 #app {

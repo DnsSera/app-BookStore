@@ -1,0 +1,7 @@
+   /* Body Styling */
+  body {
+    font-family: Arial, sans-serif;
+    background: url(/images/photo_2025-04-06_10-56-01.jpg);
+    background-size: cover; /* Asegurar que la imagen cubra toda la pantalla */
+  }
+  

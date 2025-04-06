@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "Cien años de soledad",
+        "author": "Gabriel García Márquez",
+        "year": 1967,
+        "genre": "Realismo mágico",
+        "frontPage": "/images/cienAsoledad.webp",
+        "pages": 400
+    },
+    {
+        "id": 2,
+        "title": "El amor en los tiempos de cólera",
+        "author": "Gabriel García Márquez",
+        "year": 1985,
+        "genre": "Novela romántica",
+        "frontPage": "/images/amorEnColera.jpg",
+        "pages": 368
+    },
+    {
+        "id": 3,
+        "title": "Orgullo y prejuicio",
+        "author": "Jane Austen",
+        "year": 1813,
+        "genre": "Novela romántica",
+        "frontPage": "/images/orgulloYprejuicio.jpg",
+        "pages": 432
+    },
+    {
+        "id": 4,
+        "title": "El túnel",
+        "author": "Ernesto Sabato",
+        "year": 1948,
+        "genre": "Novela psicológica",
+        "frontPage": "/images/elTunel.jpg",
+        "pages": 288
+    },
+    {
+        "id": 5,
+        "title": "Moby Dick",
+        "author": "Herman Melville",
+        "year": 1851,
+        "genre": "Aventura",
+        "frontPage": "/images/mobyDick.jpg",
+        "pages": 585
+    },
+    {
+        "id": 6,
+        "title": "El gran Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "year": 1925,
+        "genre": "Novela",
+        "frontPage": "/images/granGatsby.jpg",
+        "pages": 180
+    },
+    {
+        "id": 7,
+        "title": "La sombra del viento",
+        "author": "Carlos Ruiz Zafón",
+        "year": 2001,
+        "genre": "Novela",
+        "frontPage": "/images/sombraViento.jpg",
+        "pages": 500
+    },
+    {
+        "id": 8,
+        "title": "El libro de los portales",
+        "author": "Laura Gallego",
+        "year": 2013,
+        "genre": "Fantasia",
+        "frontPage": "/images/libroPortales.jpg",
+        "pages": 400
+    }   
+]
