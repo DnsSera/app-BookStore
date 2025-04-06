@@ -77,14 +77,17 @@ export const getUniqueGenres = computed(() => {
   });
 
   // Función para agregar un libro a la lista de lectura
- export const addBookToReadingList = (book) => {
+  export const addBookToReadingList = (book) => {
+    if (!Array.isArray(state.readingList)) {
+      state.readingList = [];
+    }
     // Agregar el libro a la lista de lectura (sin duplicados)
     const bookExists = state.readingList.some((item) => item.id === book.id);
     if (!bookExists) {
       state.readingList.push(book);
     }
   };
-  
+
   // Función para eliminar un libro de la lista de lectura
  export const removeBookFromReadingList = (bookId) => {
     state.readingList = state.readingList.filter((book) => book.id !== bookId);
@@ -96,5 +99,6 @@ export const getUniqueGenres = computed(() => {
   }, { deep: true });
 
   const loadReadingList = () => {
-    state.readingList = JSON.parse(localStorage.getItem('readingList'));
-  }
+    const storedList = localStorage.getItem('readingList');
+    state.readingList = storedList ? JSON.parse(storedList) : [];
+  };
